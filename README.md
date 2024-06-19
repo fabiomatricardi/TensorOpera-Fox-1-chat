@@ -7,8 +7,8 @@ Chat with web-based Document search and TensorOpera Fox-1 LlamaCPP
 ## Description
 project to talk with documents retrieved with websearch and enriched with newspaper3k
 forced to use llama-cpp-python and not llamafile becuase of the embeddings
-
-Using langchain for both llamaCPP LlamaCppEmbeddings and ChatLlamaCpp
+<br>
+> Using langchain for both llamaCPP LlamaCppEmbeddings and ChatLlamaCpp
 
 
 ## MODEL USED: TensorOpera Fox-1
@@ -26,7 +26,8 @@ python311 -m venv venv
 pip install --upgrade langchain langchain-community faiss-cpu tiktoken duckduckgo-search llama-cpp-python rich newspaper3k easygui lxml_html_clean streamlit
 ```
 
-
+### Download GGUF files
+from Hugging Face Repo https://huggingface.co/QuantFactory/Fox-1-1.6B-GGUF/tree/main
 
 
 #### RESOURCES:
