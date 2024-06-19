@@ -16,12 +16,12 @@ https://blog.tensoropera.ai/tensoropera-unveils-fox-foundation-model-a-pioneerin
 
 We are thrilled to introduce TensorOpera Fox-1, our cutting-edge 1.6B parameter small language model (SLM) designed to advance scalability and ownership in the generative AI landscape. TensorOpera Fox-1 is a top-performing SLM in its class, outperforming SLMs developed by industry giants like Apple, Google, and Alibaba, making it an optimal choice for developers and enterprises looking for scalable and efficient AI deployment.
 
-## Create Vene
+## Create Venv
 python311 -m venv venv
 ➜ venv\Scripts\activate
 (venv) ➜ llamacpp-agents ⚡                                                                                             3.11.7
 
-### install deendencies
+### install dependencies
 ```
 pip install --upgrade langchain langchain-community faiss-cpu tiktoken duckduckgo-search llama-cpp-python rich newspaper3k easygui lxml_html_clean streamlit
 ```
